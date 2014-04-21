@@ -1,5 +1,11 @@
 // Foundation
-$(document).foundation();
+$(document).foundation({
+
+	orbit : { 
+		bullets: 0, 
+	}
+
+});
 
 
 // Go Modal!

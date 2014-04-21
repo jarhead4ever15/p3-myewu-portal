@@ -25,3 +25,22 @@ header h1 {
 .reveal-modal-bg {
 	background: rgba(0, 177, 255, 1);
 }
+
+/* Orbit Slider */
+
+.orbit-container .orbit-slides-container li .orbit-caption {
+	background-color: rgba(51, 51, 51, 1);
+	padding: 20px;
+}
+
+.orbit-prev {
+	width: 72px;
+}
+
+.orbit-container .orbit-prev:hover, .orbit-container .orbit-next:hover {
+	background-color: orange;
+}
+
+.orbit-bullets {
+	display: none;
+}
