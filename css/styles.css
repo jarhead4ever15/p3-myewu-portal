@@ -54,6 +54,8 @@ header h1 {
 
 .tabs dd > a {
 	border: 1px solid black;
+	border-radius: 25px 25px 0px 0px;
+	padding: 10px 22px 10px 22px;
 }
 
 #classes ul, #grades ul {
