@@ -5,9 +5,33 @@ header {
 
 header h1 {
 	position: absolute;
-	left: 48px;
+	left: 730px;
 	bottom: 0;
 	font-size: 2em;
+}
+
+.head {
+	background: url(../img/triangular.png);
+	text-align: center;
+	padding: 10px 0 0 0;
+}
+
+.head h1 {
+	color: #EF0000;
+}
+
+/*  Navigation  */
+.nav {
+	padding-right: 24px;
+}
+
+
+.breadcrumbs > *  {
+	font-size: 1.15em;
+}
+
+.breadcrumbs {
+	border: 1px solid #000;
 }
 
 
@@ -16,9 +40,27 @@ header h1 {
 	border-bottom: 4px solid #333;
 }
 
+.tabs dd.active a {
+	background: white;
+	border: 1px solid red;
+}
+
+.tabs dd > a {
+	border: 1px solid black;
+}
+
+#classes ul, #grades ul {
+	list-style: none;
+}
+
+
 /* Column 2 Styling */
 .panel.callout {
 	background: rgba(21, 254, 205, 0.62);
+}
+
+div h4 {
+	padding-top: 12px;
 }
 
 /* Modal */
@@ -43,4 +85,8 @@ header h1 {
 
 .orbit-bullets {
 	display: none;
+}
+
+.carousel {
+	padding-left: 25px; 
 }
